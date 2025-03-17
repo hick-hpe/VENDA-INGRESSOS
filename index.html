@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Do Event</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light position-sticky top-0" style="z-index: 1050;">
+        <div class="container-fluid mx-5">
+            <!-- Marca à esquerda -->
+            <a class="navbar-brand fs-4 text-primary" href="#">DoEvent</a>
+
+            <!-- Toggler para dispositivos móveis -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Formulário de busca à direita -->
+            <form class="d-flex ms-auto gap-2" role="search">
+                <input class="form-control me-2" type="search" placeholder="Evento" aria-label="Search">
+                <input class="form-control me-2" type="search" placeholder="Local" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Buscar</button>
+            </form>
+
+            <!-- Navegação à direita -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <!-- <a class="nav-link text-primary" aria-current="page" href="login.html">Login</a>
+                    <a class="btn btn-outline-primary" href="cadastro.html">Cadastra-se</a> -->
+                    <div class="dropdown">
+                        <a class="btn btn-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="assets/img/image.png" alt="" height="30" class="rounded-circle"> Henrique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="area-organizador.html"><i class="bi bi-gear"></i> Área do organizador</a></li>
+                            <li><a class="dropdown-item" href="meus-ingressos.html"><i class="bi bi-ticket"></i> Meus ingressos</a></li>
+                            <!-- <li><a class="dropdown-item" href="meus-eventos.html"><i class="bi bi-calendar-event"></i> Meus eventos</a></li> -->
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container my-3">
+            <p class="fs-4 my-3">DoEvent é uma plataforma para criar, organizar e compartilhar eventos de forma simples e rápida. Encontre
+                eventos próximos a você ou crie o seu próprio.</p>
+            <h1 class="text-center">Eventos</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Evento 1 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Evento 2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Evento 3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Evento 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Evento 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div><!-- Evento 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div><!-- Evento 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/evento.jpeg" class="card-img-top" alt="Evento 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="info-eventos.html" class="btn btn-primary">Ver mais sobre este evento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Copyright -->
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2025 DoEvent. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
